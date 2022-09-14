@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&display=swap');
+
+@font-face {
+  font-family: 'Druk Cyr';
+  src: local('Druk Cyr Bold Italic'), local('Druk-Cyr-Bold-Italic'),
+      url('../assets/fonts/DrukCyr-BoldItalic.woff2') format('woff2'),
+      url('../assets/fonts/DrukCyr-BoldItalic.woff') format('woff'),
+      url('../assets/fonts/DrukCyr-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
 
 *,
 *::before,
@@ -9,9 +19,10 @@
 
 body {
   overflow: hidden;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Druk Cyr';
   /* background: linear-gradient(133deg, rgba(228,122,169,1) 50%, rgba(253,176,149,1) 100%); */
-  background: linear-gradient(133deg, rgba(167,146,211,1) 50%, rgba(250,196,236,1) 100%);
+  // background: linear-gradient(133deg, rgba(167,146,211,1) 50%, rgba(250,196,236,1) 100%);
+  background: #010101;
 }
 
 .counter{
@@ -24,28 +35,34 @@ body {
 
   .plus,
   .minus{
-    font-size: 9rem;
-    opacity: 0.5;
+    font-size: 300px;
+    line-height: 140%;
+    // border: 6px solid #FFFFFF;
+    -webkit-text-stroke: 6px #fff;
+    // opacity: 0.5;
     position: absolute;
     top: 50%;
   }
 
   .minus{
     left: 50%;
-    transform: translate(calc(-50% + (-250px)), -50%) !important;
+    color: #FF0000;
+    transform: translate(calc(-100% + (-334.5px)), -50%) !important;
   }
 
   .plus{
-    right: 50%;
-    transform: translate(calc(50% + 250px), -50%) !important;
+    // right: 50%;
+    color: #55C82D;;
+    transform: translate(calc(100% + 334.5px), -50%) !important;
   }
 }
 
-.h1{
-  font-size: 11rem;
-  color: #210440;
-  min-width: 300px;
+h1{
+  color: #FEDE09;
+  min-width: 489px;
   text-align: center;
-
-  
+  font-size: 700px;
+  font-style: italic;
+  line-height: 140%;
+  font-weight: bold;
 }
