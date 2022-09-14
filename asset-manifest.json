@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/counter/static/css/main.842f605a.css",
-    "main.js": "/counter/static/js/main.25393e24.js",
+    "main.css": "/counter/static/css/main.f6e1eb78.css",
+    "main.js": "/counter/static/js/main.8199e90e.js",
+    "static/media/DrukCyr-BoldItalic.ttf": "/counter/static/media/DrukCyr-BoldItalic.a0339301bdead4120933.ttf",
+    "static/media/DrukCyr-BoldItalic.woff": "/counter/static/media/DrukCyr-BoldItalic.4d83acd0b5874939452a.woff",
+    "static/media/achived20.mp3": "/counter/static/media/achived20.01b4426fe653279b96be.mp3",
+    "static/media/DrukCyr-BoldItalic.woff2": "/counter/static/media/DrukCyr-BoldItalic.fd7c3cf8d2f741d484e6.woff2",
+    "static/media/plus.mp3": "/counter/static/media/plus.2e4f9ee5476c9356c8af.mp3",
+    "static/media/minus.mp3": "/counter/static/media/minus.6e90e514506ba5b974fa.mp3",
     "index.html": "/counter/index.html",
-    "main.842f605a.css.map": "/counter/static/css/main.842f605a.css.map",
-    "main.25393e24.js.map": "/counter/static/js/main.25393e24.js.map"
+    "main.f6e1eb78.css.map": "/counter/static/css/main.f6e1eb78.css.map",
+    "main.8199e90e.js.map": "/counter/static/js/main.8199e90e.js.map"
   },
   "entrypoints": [
-    "static/css/main.842f605a.css",
-    "static/js/main.25393e24.js"
+    "static/css/main.f6e1eb78.css",
+    "static/js/main.8199e90e.js"
   ]
 }
