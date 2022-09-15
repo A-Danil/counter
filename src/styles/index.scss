@@ -26,26 +26,36 @@ body {
   outline: none;
   display: flex;
   align-items: center;
-  justify-content: center;
-  position: relative;
+  justify-content: space-between;
+  // position: relative;
+
+  & div:nth-of-type(1),
+  & div:nth-of-type(3){
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .plus,
   .minus{
     font-size: 300px;
     line-height: 140%;
     -webkit-text-stroke: 6px #fff;
-    position: absolute;
-    top: 50%;
+    width: 155px;
+    // position: absolute;
+    // top: 50%;
   }
 
   .minus{
     color: #FF0000;
-    transform: translate(calc(-100% + (-334.5px)), -50%) !important;
+    // transform: translate(calc(-100% + (-334.5px)), -50%) !important;
   }
 
   .plus{
-    color: #55C82D;;
-    transform: translate(calc(100% + 334.5px), -50%) !important;
+    color: #55C82D;
+    margin-left: -10px;
+    // transform: translate(calc(100% + 334.5px), -50%) !important;
   }
 }
 

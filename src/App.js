@@ -68,10 +68,16 @@ async function tooglePlay () {
   return (
     <div className="container">
       <div className="counter">
-        <h1>{count}</h1>
         <audio ref={audioElem} src={sound} preload="auto" />
-        <h3 className="minus" style={{left: `${count >= 100 ? '' : '50%'}`}}>{minus}</h3>
-        <h3 className="plus" style={{right: `${count >= 100 ? '' : '50%'}`}}>{plus}</h3>
+        <div>
+          <h3 className="minus" style={{left: `${count >= 100 ? '' : '50%'}`}}>{minus}</h3>
+        </div>
+        <div>
+         <h1>{count}</h1>
+        </div>
+        <div>
+          <h3 className="plus" style={{right: `${count >= 100 ? '' : '50%'}`}}>{plus}</h3>
+        </div>
       </div>
     </div>
   );
