@@ -30,7 +30,7 @@ async function tooglePlay () {
       setMinus('');
       setPlus('+1');
 
-      if(count !==0 && (count + 1) % 20 === 0){
+      if(count !==0 && (count + 1) % 33 === 0){
         setSound(achived);
       } else {
         setSound(plusSound);
